@@ -44,7 +44,7 @@ def count_percentage(votes):
         party_percentage = float(vote_count)/float(total_votes) * 100
         percentage[key] = party_percentage
     
-    print(percentage)
+    return percentage
 
 # get votes dictionary
 #votes = count_votes()
